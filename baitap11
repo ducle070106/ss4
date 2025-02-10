@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Your Name</h1>
+    <p>Web Developer</p>
+    <img width="150"
+      src="https://innermostselves.wordpress.com/wp-content/uploads/2018/11/self-awareness-self-understanding.jpg"
+      alt=""
+    />
+    <ul>
+      <li><a href="#skill">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div id="skill">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+      </ul>
+      <br />
+      <br />
+    </div>
+    <div id="experience">
+      <h2>Work Experience</h2>
+      <table border="1">
+        <thead>
+          <th>Company</th>
+          <th>Role</th>
+          <th>Years</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center">
+              <img width="200"
+                src="https://yviet.edu.vn/uploads/images/nen-hoc-nganh-cong-nghe-thong-tin.png"
+                alt=""
+              />
+              <br />ABC Tech
+            </td>
+            <td>Frontend Developer</td>
+            <td>2021-2023</td>
+          </tr>
+          <tr>
+            <td style="text-align: center">
+              <img width="200"
+                src="https://yviet.edu.vn/uploads/images/nen-hoc-nganh-cong-nghe-thong-tin.png"
+                alt=""
+              />
+              <br />ABC Tech
+            </td>
+            <td>UI Designer</td>
+            <td>2019-2021</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="contact">
+      <h2>Contact Me</h2>
+      <form action="http://gmail.com" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <br />
+        <label for="mess">Message</label>
+        <br />
+        <textarea name="mess" id="mess"></textarea>
+        <br />
+        <br />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <p>&#169 2025 Your Name. All rights reserved.</p>
+  
+</body>
+</html>
