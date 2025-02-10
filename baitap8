@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>Biểu mẫu đặt hàng</h1>
+        <label for="">Sản Phẩm</label>
+        <input type="text" name="" id=""><br>
+       <label for="">Số Lượng</label>
+       <input type="number" name="" id=""><br>
+       <h2>Thông tin liên hệ :</h2>
+       <label for="">Tên</label>
+       <input type="text" name="" id=""><br>
+       <label for="">Email</label>
+       <input type="text" name="" id=""><br>
+       <label for="">Địa Chỉ</label>
+       <textarea name="" id=""></textarea><br>
+       <button>Đặt hàng</button>
+    </form>
+</body>
+</html>
